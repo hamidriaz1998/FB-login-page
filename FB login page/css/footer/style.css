@@ -1,0 +1,28 @@
+.footer{
+    background-color: #fff;
+    padding-top: 20px;
+    width: 100vw;
+    height: 158px;
+    color: #737373;
+}
+
+.page-footer{
+    margin: 0 322px;
+    font-size: 12px;
+}
+
+.languages{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.languages li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 11px;
+}
+
+.languages li a{
+    text-decoration: none;
+}
