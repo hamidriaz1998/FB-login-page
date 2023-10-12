@@ -1,0 +1,94 @@
+*{
+    font-family: "SFProDisplay-Regular", Helvetica, Arial, sans-serif;
+    color: #1c1e21;
+    direction: ltr;
+    line-height: 1.34;
+    margin: 0;
+    padding: 0;
+}
+
+/* For the Whole Page */
+.main{
+    width: 100vw;
+    height: 720px;
+    padding-bottom: 112px;
+    padding-top: 72px;
+    background: #f0f2f5;
+}
+
+/* for the logo */
+.img{
+    width: 301px;
+    height: 106px;
+}
+
+/* for the text below logo */
+.h2{
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    margin: 0 0 0 34px
+}
+/* for the flex box in main */
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 520px;
+}
+
+/* For the spacing between login area and the logo */
+.logo{
+    margin-right: 100px;
+}
+
+/* For the Login-area */
+.form{
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+    padding-bottom: 24px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* for email and password area */
+.input{
+    font-size: 17px;
+    padding: 14px 16px;
+    margin: 0;
+    width: 330px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    height: 22px;
+    line-height: 16px;
+}
+
+
+/* for the forgot password link */
+.text{
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+/* for the text below login-area */
+.page{
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 28px;
+}
